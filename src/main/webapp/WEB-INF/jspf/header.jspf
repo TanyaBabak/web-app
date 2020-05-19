@@ -1,0 +1,64 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" isELIgnored="false" %>
+<%@ taglib prefix="ishop" tagdir="/WEB-INF/tags" %>
+
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<fmt:setLocale value="${current_locale}" scope="session"/>
+<fmt:setBundle var="BundleContent" basename="resources"/>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/home"><fmt:message key="Home" bundle="${BundleContent}"/></a></li>
+            <li><a href="/registration"><fmt:message key="Registration" bundle="${BundleContent}"/></a></li>
+            <li><a href="/catalog"><fmt:message key="Catalog" bundle="${BundleContent}"/></a></li>
+        </ul>
+        <ul id="currentShoppingCart"
+            class="nav navbar-nav navbar-right ${CURRENT_SHOPPING_CART == null ? 'hidden' : '' }">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                   aria-expanded="false">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> Shopping cart (<span
+                        class="total-count">${CURRENT_SHOPPING_CART.totalCount}</span>)<span class="caret"></span>
+                </a>
+                <div class="dropdown-menu shopping-cart-desc">
+                    Total count: <span class="total-count">${CURRENT_SHOPPING_CART.totalCount}</span><br>
+                    Total cost: <span class="total-cost">${CURRENT_SHOPPING_CART.totalCost}</span><br>
+                    <a href="/shopping-cart" class="btn btn-primary btn-block"><fmt:message key="View cart"
+                                                                                            bundle="${BundleContent}"/></a>
+                </div>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> English</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown09">
+                    <a class="dropdown-item" href="?lang=en_US"><span class="flag-icon flag-icon-fr"> </span>
+                        English</a>
+                    <a class="dropdown-item" href="?lang=ru"><span class="flag-icon flag-icon-ru"> </span> Russian</a>
+                </div>
+            </li>
+        </ul>
+        <li>
+            <c:choose>
+                <c:when test="${not empty CURRENT_ACCOUNT.login}">
+                    <td><log:log login="true" user="${CURRENT_ACCOUNT.name}"/></td>
+                </c:when>
+                <c:otherwise>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/login"><fmt:message key="Log in" bundle="${BundleContent}"/></a></li>
+                    </ul>
+                </c:otherwise>
+            </c:choose>
+        </li>
+        <c:choose>
+            <c:when test="${not empty CURRENT_ACCOUNT }">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/logout"><fmt:message key="Log out" bundle="${BundleContent}"/></a></li>
+                    <li><a href="/my-orders"><fmt:message key="My orders" bundle="${BundleContent}"/></a></li>
+                </ul>
+            </c:when>
+        </c:choose>
+    </div>
+</nav>
+

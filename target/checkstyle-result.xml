@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\bean\CatalogBean.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\bean\FilterFormBean.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\bean\RegistrationFormBean.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\entity\Captcha.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\entity\Category.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\entity\CookieConfig.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\entity\Manufacture.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\entity\Order.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\entity\OrderItem.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\entity\Product.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\entity\Status.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\entity\User.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\exception\AbstractApplicationException.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\exception\AccessDeniedException.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\exception\InternalServerErrorException.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\exception\ResourceNotFoundException.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\exception\ValidationException.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\filter\AbstractFilter.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\filter\AutoRestoreShoppingCartFilter.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\filter\CheckAuthenticationFilter.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\filter\ErrorHandlerFilter.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\filter\LocaleChangeFilter.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\listener\InitServletContext.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\model\ShoppingCart.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\model\ShoppingCartItem.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\repository\CatalogRepository.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\repository\impl\CatalogRepositoryImpl.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\repository\impl\OrderRepositoryImpl.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\repository\impl\UserRepositoryImpl.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\repository\OrderRepository.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\repository\UserRepository.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\service\CaptchaService.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\service\CatalogService.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\service\impl\CaptchaServiceImpl.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\service\impl\CatalogServiceImpl.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\service\impl\OrderServiceImpl.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\service\impl\UserServiceImpl.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\service\OrderService.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\service\UserService.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\AbstractController.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\AbstractProductController.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\impl\AddProductToShoppingCart.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\impl\CabinetServlet.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\impl\CaptchaServlet.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\impl\CatalogServlet.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\impl\CheckUserRegistrationServlet.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\impl\ErrorController.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\impl\HomeServlet.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\impl\LoginServlet.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\impl\LogoutServlet.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\impl\OrderController.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\impl\RemoveProductController.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\servlet\impl\ShowShoppingCartController.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\tag\CaptchaTag.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\tag\LogoutLoginTag.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\AvatarUploaderUtils.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\ComparatorFilterFormBean.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\connection\HikariConnection.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\connection\Operation.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\connection\Transaction.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\constants\EntityConstants.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\constants\ErrorConstants.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\constants\JspConstants.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\constants\PathConstants.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\constants\SqlQuery.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\constants\UtilConstants.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\constants\WebConstants.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\Hashing.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\LocaleUtils.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\RegistrationFormBean.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\RoutingUtils.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\SessionUtils.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\strategy\storage\impl\BuilderStorageData.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\strategy\storage\impl\CookieStorage.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\strategy\storage\impl\HiddenFieldStorage.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\strategy\storage\impl\SessionStorage.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\strategy\storage\StorageData.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\strategy\validation\impl\ValidationEmail.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\strategy\validation\impl\ValidationLogin.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\strategy\validation\impl\ValidationName.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\strategy\validation\impl\ValidationPassword.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\strategy\validation\impl\ValidationPasswordConfirmation.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\strategy\validation\impl\ValidationSurname.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\strategy\validation\Validation.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\TransactionUtils.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\UrlUtils.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\WebUtils.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\java\com\babak\utils\wrapper\LocaleOverrideRequest.java">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\resources\config.properties">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\resources\log4j.properties">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\resources\resources.properties">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\resources\resources_en_US.properties">
+</file>
+<file name="C:\Users\Tanya\Desktop\Epam\java_2019\WebShop\src\main\resources\resources_ru.properties">
+</file>
+</checkstyle>
